@@ -2,7 +2,7 @@ package com.example.demo.ControllerPractice;
 
 import org.springframework.web.bind.annotation.*;
 
-@RestController
+//@RestController
 public class StudentController {
 
     @PostMapping("/students")

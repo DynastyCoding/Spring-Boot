@@ -2,7 +2,7 @@ package com.example.demo.JPA;
 
 import org.springframework.stereotype.Service;
 
-@Service
+//@Service
 public class StudentService {
 
     private final StudentDao studentDao;
