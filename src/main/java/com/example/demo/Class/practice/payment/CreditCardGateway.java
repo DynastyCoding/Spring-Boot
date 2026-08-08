@@ -1,0 +1,16 @@
+package com.example.demo.Class.practice.payment;
+
+import org.springframework.stereotype.Component;
+
+import java.math.BigDecimal;
+
+@Component
+public class CreditCardGateway implements PaymentGateway{
+
+    @Override
+    public boolean charge(Long orderId, BigDecimal amount){
+        System.out.println("Use credit card deduction, book: " +orderId +
+                            ", amount: " + amount);
+        return true;
+    }
+}
